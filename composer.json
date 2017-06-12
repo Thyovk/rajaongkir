@@ -1,0 +1,32 @@
+{
+	"name"              : "Thyovk/rajaongkir",
+	"description"       : "Advanced RajaOngkir API PHP Class",
+	"license"           : "GNU General Public License v3.0 License",
+	"type"              : "php-class",
+	"keywords"          : [ "rajaongkir", "api" ],
+	"authors"           : [
+		{
+			"name"     : "Steeve Andrian",
+			"email"    : "Thyovk@Thyovk.com",
+			"homepage" : "http://www.Thyovk.com",
+			"role"     : "PHP Programmer"
+		}
+	],
+	"support"           : {
+		"email"  : "Thyovk@Thyovk.com",
+		"issues" : "https://github.com/Thyovk/rajaongkir/issues"
+	},
+	"links"             : {
+		"info"        : "https://github.com/Thyovk/rajaongkir",
+		"wiki"        : "https://github.com/Thyovk/rajaongkir/wiki"
+	},
+	"require"           : {
+		"php"              : ">=5.4.0",
+		"o2system/o2curl"  : "*"
+	},
+	"autoload"          : {
+		"files" : [
+			"src/Rajaongkir.php"
+		]
+	}
+}
